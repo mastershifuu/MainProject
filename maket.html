@@ -5,12 +5,13 @@
 		<title>My First Web Page</title>
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
 		<!--meta http-equiv="refresh" content="5; URL=http://brainacad.com/"/-->
-		
+		<link rel="stylesheet" type='text/css' href="css/normalize.css"/>
+		<link rel="stylesheet" type='text/css' href="css/style.css"/>
 			
 	</head>
 	
 	<body>
-		<div class="Counteiner" style="background: #f0f0f0;">
+		<div class="counteiner">
 			<div class="header" style="height: 100px; outline:1px solid red">
 				<img src="img/BA_new_icon.png" alt="Brain Academy" width="150px" height="50px" title="Brain Academy"/>
 				<a href="#slider">
@@ -30,14 +31,101 @@
 			<div class="Promo" id="slider" style="height: 400px; outline:1px solid green">
 				<h2 align="center">Slider</h2>
 			</div>
-			<div class="Promo" id="catalog" style="height: 400px; outline:1px solid green">
+			<div class="Promo" id="catalog" style="height: 400px; outline:1px solid green; background: #d9ddff">
 				<h2 align="center">Catalog</h2>
+				<table>
+					<tr>
+						<td> Беговая дорожка FitLogic ET1403 </td> <td> + </td> <td> - </td>
+					</tr>
+					<tr>
+						<td> Беговая дорожка Spirit XT285 </td> <td> + </td> <td> - </td>
+					</tr>
+					<tr>
+						<td> Велотренажер FitLogic BF6100 </td> <td> + </td> <td> - </td>
+					</tr>
+					<tr>
+						<td> Велотренажер Vigor AL602B </td> <td> + </td> <td> - </td>
+					</tr>
+					<tr>
+						<td> Велотренажер вертикальный ВН Fitness Rhyno Max Program H4935 </td> <td> + </td> <td> - </td>
+					</tr>
+					<tr>
+						<td> Массажный стол USA Style (SS-MT-003 A) </td> <td> + </td> <td> - </td>
+					</tr>
+					<tr>
+						<td>  Массажный стол 3-х секционный (дерев. рама) HouseFit синий (HY-30110B) </td> <td> + </td> <td> - </td>
+					</tr>
+					<tr>
+						<td> Велотренажер EnergyFIT BC1300 </td> <td> + </td> <td> - </td>
+					</tr>
+					<tr>
+						<td> Велотренажер USA STYLE зеленый mod 2012 г (SS-778B) </td> <td> + </td> <td> - </td>
+					</tr>
+					<tr>
+						<td> Массажный стол USA Style (SS-АT-001 Н) </td> <td> + </td> <td> - </td>
+					</tr>
+				</table>
+				
+				
+				
 			</div>
 			<div class="Promo" id="info" style="height: 400px; outline:1px solid green">
 				<h2>Info</h2>
 			</div>
-			<div class="Promo" id="contact" style="height: 400px; outline:1px solid green">
+			<div class="Promo" id="contact" style="height: 400px; outline:1px solid green; background: #d9ddff">
 				<h2>Contacts</h2>
+				<form>
+					<h3>Форма обратной связи</h3>
+					<fieldset>
+						<legend>здесь вы можете отправить нам сообщения</legend>
+						
+						<div>
+							<label for="you_name">Ваше имя:</label>
+							<input type="text" id="you_name"/>
+						</div>
+						
+						<div>
+							<label for="you_mail">Ваш e-mail:</label>
+							<input type="text" id="you_mail"/>
+						</div>
+					</fieldset>
+					<div>
+						<h5>Выберете тему для письма и напишите сообщение</h5>
+						
+						<hr/>
+					
+						<label for="chapter">Тема письма:</label>
+						<select for="chapter">			
+								<option>Выбрать тему</option>
+								<option>Тема 1</option>
+								<option>Тема 2</option>
+								<option>Тема 3</option>
+						</select>
+						<br/>
+						<label for="messedge">Сообщение:</label>
+						<input type="text" id="messedge"/>
+						<br/>
+					</div>
+					<div>
+						<h5>Введите капчу и нажмите "отправить"</h5>
+						<hr/>
+						<label for="kapcha">9+18</label>
+						<input type="text" id="kapcha"/>
+					</div>	
+					<div>
+						<input type="submit"/>
+						<input type="reset"/>
+					</div>	
+					
+
+
+					
+				</form>
+				
+				
+				
+				
+				
 			</div>
 			
 		</div>
