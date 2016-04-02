@@ -9,7 +9,15 @@
 	{
 		width: 150px;
 		height: 150px;
+		display: block;
+		
 	}	
+.slide .item 
+{
+	width: 100px;
+	display: block;
+	float: left;
+}	
 
 .span_item
 	{
@@ -21,4 +29,8 @@
 		display: inline-block;
 		width: 15px;
 		height: 15px;
+	}
+.clearfix
+	{
+		clear: both;
 	}
