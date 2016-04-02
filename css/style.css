@@ -4,3 +4,21 @@
 		width:768px;
 		margin: 0 auto;
 	}
+
+.slide .item img
+	{
+		width: 150px;
+		height: 150px;
+	}	
+
+.span_item
+	{
+		color: #094d74;
+	}	
+.slide_pagination .item
+	{
+		background: url(../img/sprite2.png) -64px 0px no-repeat;
+		display: inline-block;
+		width: 15px;
+		height: 15px;
+	}
