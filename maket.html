@@ -12,44 +12,66 @@
 	
 	<body>
 		<div class="counteiner">
-			<div class="header" style="height: 100px; outline:1px solid red">
-				<img src="img/BA_new_icon.png" alt="Brain Academy" width="150px" height="50px" title="Brain Academy"/>
-				<a href="#slider">
+			<div class="header" >
+					<img src="img/BA_new_icon.png" id="logo" alt="Brain Academy" title="Brain Academy"/>
+				<div id="anchors">
+					<a href="#slider" class="anchor">
 					Slider
-				</a>
-				<a href="#catalog">
-					Catalog
-				</a>
-				<a href="#info">
-					About Us
-				</a>
-				<a href="#contact">
-					Contacts
-				</a>
-				
+					</a>
+					<a href="#catalog" class="anchor">
+						Catalog
+					</a>
+					<a href="#info" class="anchor">
+						About Us
+					</a>
+					<a href="#contact" class="anchor">
+						Contacts
+					</a>
+					<a href="#footer" class="anchor">
+						Footer
+					</a>
+					<div class="clearfix">
+
+					</div>
+				</div>
+				<div id="hederbot">
+					<div class="promo" id="hedertext">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto commodi, corporis cum
+							earum est eum facere in laudantium maxime molestias nisi nulla odio officia perferendis perspiciatis
+							provident quia quo quos reprehenderit sapiente vel velit vero voluptate voluptatum. Consequatur
+							dicta eos eveniet ratione!</p>
+					</div>
+					<div>
+						<img src="img/sportheder.jpg" id="sportheder" alt="Brain Academy" title="sport"/>
+					</div>
+				</div>
 			</div>
-			
-			<div class="promo" id="slider" style=" outline:1px solid green">
+
+			<div class="promo" id="slider">
 				<h2 align="center">Slider</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto commodi, corporis cum
+					earum est eum facere in laudantium maxime molestias nisi nulla odio officia perferendis perspiciatis
+					provident quia quo quos reprehenderit sapiente vel velit vero voluptate voluptatum. Consequatur
+					dicta eos eveniet ratione! .</p>
 				<p>Congue atomorum mel ex, etiam tantas aliquip ei vim. Eu dicant quaeque duo, ea dicat aeterno aperiam vix.
 				Dolorem docendi mei ea, at iudico intellegebat definitiones sed, illud affert cetero cu eam.
 				Eu doming quidam mea, per oporteat accusata argumentum ea.</p>
 				
 				<div class="slide">
-					<a class="item" href="">
-						<img src="img/1.jpeg"/ alt="Vigor" title="Vigor"><br/>
+					<a class="item" href="#">
+						<img src="img/1.jpeg" alt="Vigor" title="Vigor"/><br/>
 						<span class ="span_item">Велотренажер Vigor</span>
 					</a>
 					<a class="item" href="">
-						<img src="img/1.jpeg"/ alt="Vigor" title="Vigor"><br/>
+						<img src="img/2.jpeg" alt="Vigor" title="Vigor"/><br/>
 						<span class ="span_item">Велотренажер Vigor</span>
 					</a>
 					<a class="item" href="">
-						<img src="img/1.jpeg"/ alt="Vigor" title="Vigor"><br/>
+						<img src="img/3.jpeg" alt="Vigor" title="Vigor"/><br/>
 						<span class ="span_item">Велотренажер Vigor</span>
 					</a>
 					<a class="item" href="">
-						<img src="img/1.jpeg"/ alt="Vigor" title="Vigor"><br/>
+						<img src="img/4.jpeg" alt="Vigor" title="Vigor"/><br/>
 						<span class ="span_item">Велотренажер Vigor</span>
 					</a>
 					<div class="clearfix">
@@ -63,7 +85,7 @@
 				</div>
 			</div>
 			
-			<div class="promo" id="catalog" style="height: 400px; outline:1px solid green; background: #cfdaec">
+			<div class="promo" id="catalog" >
 				<h2 align="center">Catalog</h2>
 				<table>
 					<tr>
@@ -127,11 +149,11 @@
 						<hr/>
 					
 						<label for="chapter">Тема письма:</label>
-						<select for="chapter">			
-								<option>Выбрать тему</option>
-								<option>Тема 1</option>
-								<option>Тема 2</option>
-								<option>Тема 3</option>
+						<select id="chapter">
+							<option>Выбрать тему</option>
+							<option>Тема 1</option>
+							<option>Тема 2</option>
+							<option>Тема 3</option>
 						</select>
 						<br/>
 						<label for="messedge">Сообщение:</label>
@@ -143,28 +165,21 @@
 						<hr/>
 						<label for="kapcha">9+18</label>
 						<input type="text" id="kapcha"/>
-					</div>	
+					</div>
 					<div>
 						<input type="submit"/>
 						<input type="reset"/>
-					</div>	
-					
-
-
-					
+					</div>
 				</form>
-				
-				
-				
-				
-				
 			</div>
-			
+			<div class="promo" id="footer" style="height: 400px; outline:1px solid green">
+				<h2>Footer</h2>
+				<div class="footer-pagination">
+					<span class="twit"></span>
+					<span class="facebook"></span>
+					<span class="vk"></span>
+				</div>
+			</div>
 		</div>
-		
-	
-	
-	
 	</body>
-	
 </html>

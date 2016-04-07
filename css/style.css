@@ -1,22 +1,21 @@
-.counteiner
-	{
-		background:#9cb9d1;
-		width:768px;
-		margin: 0 auto;
-	}
+.counteiner {
+	background: #9cb9d1;
+	width: 768px;
+	margin: 0 auto;
+}
 
 .slide .item img
 	{
 		width: 150px;
 		height: 150px;
 		display: block;
-		
 	}	
 .slide .item 
 {
 	width: 100px;
 	display: block;
 	float: left;
+	margin: 10px;
 }	
 
 .span_item
@@ -30,11 +29,53 @@
 		width: 15px;
 		height: 15px;
 	}
-.clearfix
-	{
-		clear: both;
-	}
+.clearfix {clear: both;}
 .slide
 	{
 		border: 2px solid black;
 	}
+#logo{
+	width: 150px;
+	height: 50px;
+}
+.anchor{
+	margin: 5px;
+
+}
+#anchors{
+	float: right;
+	margin-top: 30px;
+}
+#hedertext{
+	width: 400px;
+	float: left;
+}
+#sportheder{
+	width: 300px;
+	height: 200px;
+}
+#hederbot{
+	background: #cfdaec;
+	padding-top: 20px;
+}
+.footer-pagination .twit
+{
+	background: url(../img/sprite1.png) 0 0 no-repeat;
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+}
+.footer-pagination .facebook
+{
+	background: url(../img/sprite1.png) -76px 0 no-repeat;
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+}
+.footer-pagination .vk
+{
+	background: url(../img/sprite1.png) -228px 0 no-repeat;
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+}
