@@ -21,13 +21,14 @@
 .span_item
 	{
 		color: #094d74;
-	}	
+	}
 .slide_pagination .item
 	{
 		background: url(../img/sprite2.png) -64px 0px no-repeat;
 		display: inline-block;
 		width: 15px;
 		height: 15px;
+
 	}
 .clearfix {clear: both;}
 .slide
@@ -60,22 +61,32 @@
 }
 .footer-pagination .twit
 {
-	background: url(../img/sprite1.png) 0 0 no-repeat;
+	background: url(../img/sprite1.png) 0 -154px no-repeat;
 	display: inline-block;
 	width: 75px;
 	height: 75px;
 }
 .footer-pagination .facebook
 {
-	background: url(../img/sprite1.png) -76px 0 no-repeat;
+	background: url(../img/sprite1.png) -76px 0px no-repeat;
 	display: inline-block;
 	width: 75px;
 	height: 75px;
 }
 .footer-pagination .vk
 {
-	background: url(../img/sprite1.png) -228px 0 no-repeat;
+	background: url(../img/sprite1.png) -228px -75px no-repeat;
 	display: inline-block;
 	width: 75px;
 	height: 75px;
+}
+#contact{
+	background: #cfdaec;
+}
+#catalog{
+	background: #cfdaec;
+}
+#info{
+	height: 400px;
+	background: #cfdaec;
 }
