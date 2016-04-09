@@ -35,30 +35,44 @@
 	{
 		border: 2px solid black;
 	}
-#logo{
-	width: 150px;
-	height: 50px;
+.logo{
+	display: block;
+	position: absolute;
+	top: 12px;
+	left: 50px;
+	background: 7d7d7d;
+	height: 75px;
+    width: 165px;
+    line-height: 70px;
+    text-align: center;
+    float: left;
+}.anchor{
+	display: block;
+    text-align: right;
 }
-.anchor{
-	margin: 5px;
+.heder{
+	background: #d7d7d7;
+    position: relative;
+}
+.anchors a {
+    display: inline-block;
+    color: #e2e2e2;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: -4px;
+}
 
-}
-#anchors{
-	float: right;
-	margin-top: 30px;
-}
-#hedertext{
-	width: 400px;
-	float: left;
-}
-#sportheder{
-	width: 300px;
-	height: 200px;
-}
-#hederbot{
-	background: #cfdaec;
-	padding-top: 20px;
-}
+
+
+
+
+
+
+
+
+
 .footer-pagination .twit
 {
 	background: url(../img/sprite1.png) 0 -154px no-repeat;
