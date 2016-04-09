@@ -1,0 +1,96 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+.conteiner{
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	outline: 1px solid red;
+	position: relative;
+}
+.clearfix {
+    clear: both;
+}
+header{
+	
+	height: 10%;
+	outline: 1px solid red;
+}
+.demo{
+	width: 660px;
+	height: 45%;
+	margin: 0 auto;
+	outline: 1px solid red;
+}
+.content{
+	width: 660px;
+	height: 70%;
+    margin: 0 auto;
+	margin-bottom: -15px;
+	outline: 1px solid red;
+	overflow-y: scroll;
+	position: absolute;
+    top: 22%;
+    left: 9%;
+}
+main{
+	width: 60%;
+    height: 825px;
+    outline: 1px solid blue;
+    /* float: left; */
+    display: inline-block;
+}
+aside{
+	width: 39%;
+    height: 825px;
+    outline: 1px solid black;
+    /* float: right; */
+    display: inline-block;
+}
+.data1{
+	width: 427px;
+    height: 240px;
+	outline: 1px solid green;
+}
+.data2{
+	width: 427px;
+    height: 322px;
+	outline: 1px solid green;
+}
+.data3{
+	width: 427px;
+    height: 263px;
+	outline: 1px solid green;
+}
+.dataslider1{
+	width: 233px;
+    height: 270px;
+	outline: 1px solid green;
+}
+.dataslider2{
+	width: 233px;
+    height: 330px;
+	outline: 1px solid green;
+}
+.dataslider3{
+	width: 233px;
+    height: 225px
+	outline: 1px solid green;
+}
+footer{
+	height: 10%;
+	outline: 1px solid red;
+}
+.top{
+	position: relative;
+	height: 25%;
+	outline: 1px solid green;
+}
+.middle{
+	position: relative;
+	height: 55%;
+	outline: 1px solid green;
+}
