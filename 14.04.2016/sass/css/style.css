@@ -71,3 +71,63 @@ P {
 .item-2 {
   width: 4em;
 }
+
+/* line 73, ../sass/_main_style.scss */
+.monday-icon {
+  background-image: url("/images/monday.png");
+}
+
+/* line 73, ../sass/_main_style.scss */
+.tuesday-icon {
+  background-image: url("/images/tuesday.png");
+}
+
+/* line 73, ../sass/_main_style.scss */
+.wednesday-icon {
+  background-image: url("/images/wednesday.png");
+}
+
+/* line 73, ../sass/_main_style.scss */
+.thursday-icon {
+  background-image: url("/images/thursday.png");
+}
+
+/* line 77, ../sass/_main_style.scss */
+.grey-icon {
+  background: url(../images/sprite.png) 0px 0px no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+/* line 77, ../sass/_main_style.scss */
+.yellow-icon {
+  background: url(../images/sprite.png) -16px 0px no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+/* line 77, ../sass/_main_style.scss */
+.red-icon {
+  background: url(../images/sprite.png) -32px 0px no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+/* line 77, ../sass/_main_style.scss */
+.green-icon {
+  background: url(../images/sprite.png) -48px 0px no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+/* line 77, ../sass/_main_style.scss */
+.blue-icon {
+  background: url(../images/sprite.png) -64px 0px no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}

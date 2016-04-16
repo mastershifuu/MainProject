@@ -69,3 +69,16 @@ P{
 	.item-#{$i}{width: 2em*$i;}
 	$i: $i - 2;
 }
+@each $week in monday, tuesday, wednesday, thursday{
+	.#{$week}-icon{background-image: url('/images/#{$week}.png');}
+}
+$i: 0;
+@each $sprite in grey, yellow, red, green, blue{
+	.#{$sprite}-icon{
+		background: url(../images/sprite.png) #{$i}px 0px no-repeat;
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+	}
+	$i: $i - 16;
+}

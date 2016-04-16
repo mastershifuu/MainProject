@@ -1,0 +1,368 @@
+//@import "normalize.scss";
+@import "main_style.scss";
+.container {
+    width: 768px;
+    margin: 0 auto;
+}
+#header {
+    background: #d7d7d7;
+    position: relative;
+}
+#header2 {
+    padding-top: 30px;
+    background: #363636;
+}
+.promo {
+    padding: 10px 40px 20px 40px;
+}
+#slider{
+    background: #e2e2e2;
+    color: #363636;
+}
+#catalog {
+    background: #363636;
+    color: #e2e2e2;
+}
+#info {
+    background: #e2e2e2;
+    color: #363636;
+    text-align: justify;
+}
+#contact {
+    background: #363636;
+    color: #e2e2e2;
+}
+#footer {
+    background: #e2e2e2;
+    color: #363636;
+    position: relative;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 50px;
+    background: #7d7d7d;
+    height: 75px;
+    width: 165px;
+    line-height: 70px;
+    text-align: center;
+    float: left;
+}
+
+.logo img {
+    width: 150px;
+    vertical-align: middle;
+}
+
+.anchors-heder {
+    display: block;
+    text-align: right;
+}
+.clearfix {
+    clear: both;
+}
+.anchors-heder a {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: -4px;
+}
+.header2-text {
+    display: block;
+    color: #e2e2e2;
+    text-transform: uppercase;
+    float: left;
+    width: 300px;
+}
+#header2 img {
+    display: block;
+    float: right;
+	width: 350px;
+	height: 200px;
+}
+p {
+    display: block;
+}
+h2 {
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+#slider p {
+    text-align: justify;
+}
+.slider-container {
+    position: relative;
+    border-top: 2px solid #363636;
+    padding-top: 15px;
+}
+.pagination {
+    text-align: center;
+}
+.slide {
+    display: inline-block;
+}
+.slide .item {
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    margin: 5px;
+}
+.slide .item .label {
+    color: #363636;
+}
+.slide .item img {
+    width: 130px;
+    height: 130px;
+}
+.pagination .item {
+    background: url(../img/sprite2.png) 0 0 no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-top: 5px;
+}
+.catalog-table {
+    display: block;
+    float: left;
+    width: 400px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.catalog-table td:first-child {
+    text-align: left;
+    width: 400px;
+}
+.catalog-table td {
+    width: 20px;
+    text-align: center;
+    background: #4b4b4b;
+    font-size: 14px;
+    padding: 3px;
+}
+.image-container {
+    display: block;
+    float: right;
+    width: 250px;
+    height: 250px;
+    background: #4b4b4b;
+}
+.table-pages {
+    margin-left: 2px;
+}
+.table-pages span {
+    display: inline-block;
+    text-align: center;
+    background: #4b4b4b;
+    font-size: 14px;
+    color: #e2e2e2;
+    text-decoration: none;
+    width: 20px;
+    padding: 2px;
+    margin-top: 5px;
+}
+.leftimg {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 150px;
+}
+.bck {
+    height: 150px;
+    width: 150px;
+    margin-top: -10px;
+}
+.rightimg {
+    float: right;
+    margin: 0 0 0 5px;
+    width: 150px;
+    height: 200px;
+    position: relative;
+}
+.contact-form {
+    background: #4b4b4b;
+    display: block;
+    float: left;
+    width: 350px;
+    font-size: 14px;
+    box-shadow: 2px 2px 20px rgb(0,0,0);
+}
+.form-container {
+    padding: 5px;
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.contact-form p {
+    margin: 5px 0;
+}
+.contact-form .name {
+    border-top: 2px solid #e2e2e2;
+    padding: 5px 0 0 0;
+}
+.contact-form .text-container {
+    display: block;
+}
+.contact-form input[type="text"] {
+    display: block;
+    float: right;
+    width: 200px;
+}
+.contact-form .email {
+    border-bottom: 2px solid #e2e2e2;
+    padding: 5px 0;
+}
+.topic_label {
+    display: block;
+    margin: 5px 0;
+}
+.contact-form .topic {
+    display: block;
+    float: right;
+    width: 204px;
+}
+.contact-form textarea {
+    display: block;
+    width: 314px;
+    margin-bottom: 5px;
+    resize: none;
+}
+.captcha {
+    text-align: center;
+    border-top: 2px solid #e2e2e2;
+    padding-left: 5px;
+}
+.captcha label {
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.captcha input[type="text"] {
+    display: inline-block;
+    clear: both;
+    width: 200px;
+    float: none;
+    margin-left: 5px;
+}
+.buttons-container {
+    text-align: center;
+}
+.contact-image {
+    float: right;
+    width: 300px;
+    margin-top: 30px;
+}
+.social span{
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+}
+.social .twit
+{
+	background: url(../img/sprite1.png) 0 -154px no-repeat;
+}
+.social .facebook
+{
+	background: url(../img/sprite1.png) -76px 0px no-repeat;
+}
+.social .vk
+{
+	background: url(../img/sprite1.png) -228px -75px no-repeat;
+}
+.panel {
+    position: fixed;
+    top: 50%;
+    width: 40px;
+    height: 200px;
+    background: #001fa7;
+    margin-top: -100px;
+    left: 0px;
+    opacity: 0.97;
+    transition-duration: 0.5s;
+}
+.admin-content {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 40px;
+    margin-top: -100px;
+}
+.discount-form {
+    margin: 10px;
+}
+.discount-form legend {
+    color: white;
+    font-weight: bold;
+}
+.date {
+    width: 100px;
+    display: inline-block;
+}
+.discount-form .adm-button {
+    width: 100%;
+}
+.overlay{
+	background: url(../img/overlay.png);
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+}
+.dialog-window{
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+	top: 50%;
+	position: fixed;
+	transform: translateY(-50%);
+}
+.timer-item{
+	position: relative;
+	display: inline-block;
+    border: 4px outset gray;
+	box-shadow: inset 0px 0px 10px;
+	font-size: 80px;
+	border-radius: 5px 5px 5px 5px;
+}
+.timer-item-two{
+	padding: 0 10px 0 10px;
+	font-size: 80px;
+}
+.timer-item:before{
+	content: "";
+	background-color: #fff;
+	display: block;
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	top: 50%;	
+}

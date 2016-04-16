@@ -1,0 +1,501 @@
+/* line 3, ../sass/style.scss */
+.container {
+  width: 768px;
+  margin: 0 auto;
+}
+
+/* line 7, ../sass/style.scss */
+#header {
+  background: #d7d7d7;
+  position: relative;
+}
+
+/* line 11, ../sass/style.scss */
+#header2 {
+  padding-top: 30px;
+  background: #363636;
+}
+
+/* line 15, ../sass/style.scss */
+.promo {
+  padding: 10px 40px 20px 40px;
+}
+
+/* line 18, ../sass/style.scss */
+#slider {
+  background: #e2e2e2;
+  color: #363636;
+}
+
+/* line 22, ../sass/style.scss */
+#catalog {
+  background: #363636;
+  color: #e2e2e2;
+}
+
+/* line 26, ../sass/style.scss */
+#info {
+  background: #e2e2e2;
+  color: #363636;
+  text-align: justify;
+}
+
+/* line 31, ../sass/style.scss */
+#contact {
+  background: #363636;
+  color: #e2e2e2;
+}
+
+/* line 35, ../sass/style.scss */
+#footer {
+  background: #e2e2e2;
+  color: #363636;
+  position: relative;
+}
+
+/* line 41, ../sass/style.scss */
+.logo {
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 50px;
+  background: #7d7d7d;
+  height: 75px;
+  width: 165px;
+  line-height: 70px;
+  text-align: center;
+  float: left;
+}
+
+/* line 54, ../sass/style.scss */
+.logo img {
+  width: 150px;
+  vertical-align: middle;
+}
+
+/* line 59, ../sass/style.scss */
+.anchors-heder {
+  display: block;
+  text-align: right;
+}
+
+/* line 63, ../sass/style.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 66, ../sass/style.scss */
+.anchors-heder a {
+  display: inline-block;
+  color: #000000;
+  text-decoration: none;
+  padding: 15px;
+  margin-left: -4px;
+}
+
+/* line 73, ../sass/style.scss */
+.header2-text {
+  display: block;
+  color: #e2e2e2;
+  text-transform: uppercase;
+  float: left;
+  width: 300px;
+}
+
+/* line 80, ../sass/style.scss */
+#header2 img {
+  display: block;
+  float: right;
+  width: 350px;
+  height: 200px;
+}
+
+/* line 86, ../sass/style.scss */
+p {
+  display: block;
+}
+
+/* line 89, ../sass/style.scss */
+h2 {
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+/* line 93, ../sass/style.scss */
+#slider p {
+  text-align: justify;
+}
+
+/* line 96, ../sass/style.scss */
+.slider-container {
+  position: relative;
+  border-top: 2px solid #363636;
+  padding-top: 15px;
+}
+
+/* line 101, ../sass/style.scss */
+.pagination {
+  text-align: center;
+}
+
+/* line 104, ../sass/style.scss */
+.slide {
+  display: inline-block;
+}
+
+/* line 107, ../sass/style.scss */
+.slide .item {
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  margin: 5px;
+}
+
+/* line 113, ../sass/style.scss */
+.slide .item .label {
+  color: #363636;
+}
+
+/* line 116, ../sass/style.scss */
+.slide .item img {
+  width: 130px;
+  height: 130px;
+}
+
+/* line 120, ../sass/style.scss */
+.pagination .item {
+  background: url(../img/sprite2.png) 0 0 no-repeat;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+
+/* line 127, ../sass/style.scss */
+.catalog-table {
+  display: block;
+  float: left;
+  width: 400px;
+}
+
+/* line 132, ../sass/style.scss */
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+/* line 138, ../sass/style.scss */
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+/* line 143, ../sass/style.scss */
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+/* line 148, ../sass/style.scss */
+.catalog-table td:first-child {
+  text-align: left;
+  width: 400px;
+}
+
+/* line 152, ../sass/style.scss */
+.catalog-table td {
+  width: 20px;
+  text-align: center;
+  background: #4b4b4b;
+  font-size: 14px;
+  padding: 3px;
+}
+
+/* line 159, ../sass/style.scss */
+.image-container {
+  display: block;
+  float: right;
+  width: 250px;
+  height: 250px;
+  background: #4b4b4b;
+}
+
+/* line 166, ../sass/style.scss */
+.table-pages {
+  margin-left: 2px;
+}
+
+/* line 169, ../sass/style.scss */
+.table-pages span {
+  display: inline-block;
+  text-align: center;
+  background: #4b4b4b;
+  font-size: 14px;
+  color: #e2e2e2;
+  text-decoration: none;
+  width: 20px;
+  padding: 2px;
+  margin-top: 5px;
+}
+
+/* line 180, ../sass/style.scss */
+.leftimg {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 150px;
+}
+
+/* line 185, ../sass/style.scss */
+.bck {
+  height: 150px;
+  width: 150px;
+  margin-top: -10px;
+}
+
+/* line 190, ../sass/style.scss */
+.rightimg {
+  float: right;
+  margin: 0 0 0 5px;
+  width: 150px;
+  height: 200px;
+  position: relative;
+}
+
+/* line 197, ../sass/style.scss */
+.contact-form {
+  background: #4b4b4b;
+  display: block;
+  float: left;
+  width: 350px;
+  font-size: 14px;
+  box-shadow: 2px 2px 20px black;
+}
+
+/* line 205, ../sass/style.scss */
+.form-container {
+  padding: 5px;
+}
+
+/* line 208, ../sass/style.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 213, ../sass/style.scss */
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/* line 221, ../sass/style.scss */
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+/* line 225, ../sass/style.scss */
+.contact-form p {
+  margin: 5px 0;
+}
+
+/* line 228, ../sass/style.scss */
+.contact-form .name {
+  border-top: 2px solid #e2e2e2;
+  padding: 5px 0 0 0;
+}
+
+/* line 232, ../sass/style.scss */
+.contact-form .text-container {
+  display: block;
+}
+
+/* line 235, ../sass/style.scss */
+.contact-form input[type="text"] {
+  display: block;
+  float: right;
+  width: 200px;
+}
+
+/* line 240, ../sass/style.scss */
+.contact-form .email {
+  border-bottom: 2px solid #e2e2e2;
+  padding: 5px 0;
+}
+
+/* line 244, ../sass/style.scss */
+.topic_label {
+  display: block;
+  margin: 5px 0;
+}
+
+/* line 248, ../sass/style.scss */
+.contact-form .topic {
+  display: block;
+  float: right;
+  width: 204px;
+}
+
+/* line 253, ../sass/style.scss */
+.contact-form textarea {
+  display: block;
+  width: 314px;
+  margin-bottom: 5px;
+  resize: none;
+}
+
+/* line 259, ../sass/style.scss */
+.captcha {
+  text-align: center;
+  border-top: 2px solid #e2e2e2;
+  padding-left: 5px;
+}
+
+/* line 264, ../sass/style.scss */
+.captcha label {
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+/* line 268, ../sass/style.scss */
+.captcha input[type="text"] {
+  display: inline-block;
+  clear: both;
+  width: 200px;
+  float: none;
+  margin-left: 5px;
+}
+
+/* line 275, ../sass/style.scss */
+.buttons-container {
+  text-align: center;
+}
+
+/* line 278, ../sass/style.scss */
+.contact-image {
+  float: right;
+  width: 300px;
+  margin-top: 30px;
+}
+
+/* line 283, ../sass/style.scss */
+.social span {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+}
+
+/* line 288, ../sass/style.scss */
+.social .twit {
+  background: url(../img/sprite1.png) 0 -154px no-repeat;
+}
+
+/* line 292, ../sass/style.scss */
+.social .facebook {
+  background: url(../img/sprite1.png) -76px 0px no-repeat;
+}
+
+/* line 296, ../sass/style.scss */
+.social .vk {
+  background: url(../img/sprite1.png) -228px -75px no-repeat;
+}
+
+/* line 300, ../sass/style.scss */
+.panel {
+  position: fixed;
+  top: 50%;
+  width: 40px;
+  height: 200px;
+  background: #001fa7;
+  margin-top: -100px;
+  left: 0px;
+  opacity: 0.97;
+  transition-duration: 0.5s;
+}
+
+/* line 311, ../sass/style.scss */
+.admin-content {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  right: 40px;
+  margin-top: -100px;
+}
+
+/* line 318, ../sass/style.scss */
+.discount-form {
+  margin: 10px;
+}
+
+/* line 321, ../sass/style.scss */
+.discount-form legend {
+  color: white;
+  font-weight: bold;
+}
+
+/* line 325, ../sass/style.scss */
+.date {
+  width: 100px;
+  display: inline-block;
+}
+
+/* line 329, ../sass/style.scss */
+.discount-form .adm-button {
+  width: 100%;
+}
+
+/* line 332, ../sass/style.scss */
+.overlay {
+  background: url(../img/overlay.png);
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 340, ../sass/style.scss */
+.dialog-window {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  top: 50%;
+  position: fixed;
+  transform: translateY(-50%);
+}
+
+/* line 348, ../sass/style.scss */
+.timer-item {
+  position: relative;
+  display: inline-block;
+  border: 4px outset gray;
+  box-shadow: inset 0px 0px 10px;
+  font-size: 80px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/* line 356, ../sass/style.scss */
+.timer-item-two {
+  padding: 0 10px 0 10px;
+  font-size: 80px;
+}
+
+/* line 360, ../sass/style.scss */
+.timer-item:before {
+  content: "";
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+}
