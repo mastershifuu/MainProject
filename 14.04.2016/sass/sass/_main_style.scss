@@ -1,0 +1,71 @@
+$color: mix(#ff0202, #3600ff, 50%);
+$grid-width: 40px;
+$gutter-width: 10px;
+$values: #ff0000, #00ff00, #0000ff;
+$type: save; 
+$i: 6;
+.cancel{
+	background: fade-out($color,.3);
+	color: #FFFFFF;
+	border: none;
+	border-radius: 15px;
+	padding: 10px 15px;
+}
+.save{
+	@exend .cancel;
+	background: fade-in($color,.7);
+}
+button{
+	@if $type == cancel{color: blue;}
+	@else if $type == save{color: green;}
+	@else if $type == delete{color: red;}
+	@else {color: black;}
+	
+}
+/*@function grid-width($n){
+	@return $n*$grid-width+($n - 2)*$gutter-width;
+}
+*/
+@mixin large-text{
+	font: {
+		family: Arial;
+		size: 40px;
+		weight: bolt;
+	}
+	color: #ff0000;
+}
+@mixin blue-border($color, $width: 1px){
+	border: {
+		color: $color;
+		width: $width;
+		style: dashed;
+	}
+}
+@mixin colors($text, $background, $border){
+	color: $text;
+	background-color: $background;
+	border-color: $border;
+}	
+/*.text{
+	outline: 1px solid black;
+	width: grid-width(5);
+}
+*/
+h1{
+	/*@include large-text;
+	@include blue-border(blue, 5px);*/
+	@include colors($values...);
+}
+P{
+	/*@include blue-border(blue);*/
+	@if 1 + 2 == 3{border: 1px solid;}
+	@if 4<3	{color: red;}
+	@if null {padding: 5px;}
+}	
+@for $i from 1 through 3{
+	.item-#{$i}{width: 2em*$i;}
+}
+@while $i>0{
+	.item-#{$i}{width: 2em*$i;}
+	$i: $i - 2;
+}
