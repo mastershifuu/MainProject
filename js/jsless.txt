@@ -1,0 +1,57 @@
+/*var i=0;
+while (i<10){
+  console.log(i);
+  i++;
+}
+do{
+  console.log(i);
+  i++;
+}
+while(i<10);
+
+var a = prompt("enter a");
+a=Number(a);
+var b = prompt("enter b");
+b=Number(b);
+var func = prompt("enter func");
+var c;
+switch (func){
+  case 'addition':
+    c=(a+b);
+    break;
+  case 'subrtaction':
+    c=a-b;
+    break;
+  case 'multiplication':
+    c=a*b;
+    break;
+  case 'division':
+    c=a/b;
+    break;
+}
+console.log(c);*/
+
+var arr=['chair','sofa','table'];
+arr[0] = 'new';
+arr[100] = 'last';
+console.log(arr.length); //?????????? ?????? ??????
+console.log(arr);
+console.log(arr[2]);
+var a=[
+  [1,2,3],
+  [4,5,6]
+];
+console.log(a[0]);
+console.log(a[0][2], a[1][1]);
+var a=['car','bus','bike'];
+a.push('tram');
+console.log(a);
+//var lastElement = a.pop();
+a.pop();
+//console.log(lastElement);
+delete a[1];
+console.log(a);
+a.unshift('qwe','qwert','qwertyu');
+console.log(a);
+a.shift();
+console.log(a);
