@@ -17,7 +17,7 @@ function Animal(breed, age){
 
 var monkey = Animal('monkey', 8);
 
-console.log(monkey);*/
+console.log(monkey);
 
 function Plant() {
   this.country = 'Ukraine';
@@ -37,4 +37,43 @@ function Fruit(name,color){
 }
 Fruit.prototype = new Plant();
 var apple = new Fruit('apple', 'green');
-console.log(getPrototypeOf());
+console.log(apple.showNameAndColor());
+
+var str = 'My Beautiful String';
+var res = str.charCodeAt(6);
+console.log(res);
+var res2 = String.fromCharCode(97,117);
+console.log(res2);
+console.log(str.concat('111','2222'));
+
+var res3 = str.indexOf('b');
+console.log(res3);
+
+var res4 = str.slice(3,8);
+console.log(res4);
+
+var res5 = str.split('i');
+console.log(res5);
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+var str1 = '_';
+var res6 = str1.repeat(10);
+console.log(res6);
+
+
+var str = 'My Beautiful String';
+var res = str.split(' ');
+var reversed = res.reverse();
+console.log(res.join('-'));
+console.log(reversed);*/
+
+var str = prompt('enter string');
+var res = str.split(' ');
+var reversed = res.reverse();
+for (var i = 0, dl = res.length; i < dl; i++) {
+  res[i] = res[i].charAt(0).toUpperCase() + res[i].slice(1);
+}
+console.log(reversed.join(' '));         
+        
+
