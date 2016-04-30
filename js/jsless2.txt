@@ -1,0 +1,107 @@
+
+//noprotect
+/*var cars = [], carsv3 = [];
+var car1 = {}, car2 = {}, car3 = {}, car4 = {}, car5 = {};
+
+cars.push(car1);
+cars.push(car2);
+cars.push(car3);
+cars.push(car4);
+cars.push(car5);
+
+for(var i=0; i<5; i++) {
+    cars[i].name = prompt((i+1)+' car name');
+    cars[i].model = prompt((i+1)+' car model');
+    cars[i].engine = prompt((i+1)+' car engine');
+}
+//console.log(cars);
+for (var i=0; i<cars.length; i++) {
+  if(cars[i].engine > 2.0) {
+    carsv3.push(cars[i]);
+  }
+}
+console.log(carsv3);
+
+// ?? ????????, ? ?????? ?????????
+var obj1 = {
+  prop: 'some text'
+};
+
+var obj2 = obj1;
+obj2.other = 5;
+
+console.log(obj1.other);
+
+// ??????? ???????????? ???????? ???????, ??????? ? ???????? ???????
+var obj1 = {
+  n1: 5,
+  n2: 6,
+  n3: 7
+};
+
+var props = ['n1','n2','n3'];
+console.log(props[0]);
+console.log(obj1.n1);
+
+for (var pr in obj1){
+  console.log(pr+":"+obj1[pr]);
+}
+for(i=props.length-1; i>=0; i--){
+  console.log("n"+(i+1)+":"+obj1[props[i]]);
+}
+
+function myFunc(a){
+  cosole.log(a);
+}
+myFunc(1);
+myFunc('text');
+var myconstructor = function(name, model, engineDisplacement){
+  this.name = name;
+  this.model = model;
+  this.engineDisplacement = engineDisplacement;
+  this.sayParams = function(){
+    console.log("Helo, I'm "+this.name + ' model '+ this.model + ' with engineDisplacement ' + this.engineDisplacement);
+  };
+};
+
+var car = new myconstructor('tesla', 's', '123');
+//var tesla2 = new myconstructor('kia', 'rio', '2.2');
+//var tesla3 = new myconstructor('ford', 'fiesta', '1.6');
+//console.log(tesla, tesla2, tesla3);
+car.sayParams();*/
+
+//????? ??????? ?????? ???????
+/*function outer(){
+  console.log("inside");
+  function inside(){
+    console.log('innerFunction');
+  }
+  inside();
+}
+outer();*/
+var sum;
+function myPow(x,n){
+  var res = x;
+  for(i=1; i<n; i++){
+    res *= x;
+  }
+  console.log(res);   
+}
+myPow(2,3);
+/*function myFunc(a,b,c){
+  console.log(arguments);
+}
+
+myFunc('str', 5, {opt:7});
+console.log(myFunc.length);*/
+
+function myFunc(a,b){
+  var sum = 0;
+  for(i=0; i<a.length; i++){
+    if (a[i] === b) sum++;
+  }
+  console.log(sum);
+}
+x = prompt('enter string');
+y = prompt('enter leter');
+myFunc(x, y);

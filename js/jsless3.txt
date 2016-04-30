@@ -1,0 +1,40 @@
+/*var a = ['_',"/\\"];
+var el, res = "";
+for(var i=0; i<10;i++){      
+  el=Math.floor(Math.random()*a.length);
+  res = res + a[el];                            
+}
+
+console.log(res);
+
+function Animal(breed, age){
+  if(!(this instanceof Animal)){
+    return new Animal(breed, age);
+  }
+  this.breed = breed;
+  this.age = age;
+}
+
+var monkey = Animal('monkey', 8);
+
+console.log(monkey);*/
+
+function Plant() {
+  this.country = 'Ukraine';
+  this.organic = true;
+}
+
+var apple = new Plant();
+Plant.prototype.amIOrganic = function(){
+  return (this.organic)? 'yes' : 'no';
+};
+Plant.prototype.showNameAndColor = function(){
+  console.log ('My name is ' + this.name + ' and ma color is ' + this.color);
+};
+function Fruit(name,color){
+  this.name = name;
+  this.color = color;
+}
+Fruit.prototype = new Plant();
+var apple = new Fruit('apple', 'green');
+console.log(getPrototypeOf());
