@@ -1,0 +1,28 @@
+//var str = 'i like regex';
+//var index = str.search(/like/);
+//var result = str.match(/like/);
+//console.log(result, result.index, result.input);
+
+/*var str2 = "05-07-2014";
+
+var result = str2.replace(/-/g, function(str, offset, orig){
+  console.log(str+' is found on the position '+ offset)
+});
+//console.log(result);
+
+
+//var reg = /like/;
+
+//var result = reg.test(str);
+
+var str = 'If two witches were watching two watches, which witch would watch which watch';
+var myRe = /watch/g;
+var myArray;
+
+while((myArray = myRe.exec(str)) !== null){
+
+}
+console.log(result);*/
+var arr = [1,34,65,3,-8]
+var res = Math.max.apply(null, arr);
+console.log(res);
