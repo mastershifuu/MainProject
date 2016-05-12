@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Title</title>
+	</head>
+	<body>
+		<p id="outer">
+			<span class="myspan" title="1" onclick="handleClick(event)">one</span>
+			<span class="myspan" title="2" onclick="handleClick(this)">two</span>
+			<span class="myspan" title="3" onclick="handleClick(this)">three</span>
+		</p>
+		<span class="myspan">four</span>
+		<script>
+			var byId = document.getElementById('outer');
+			var allElements = byId.getElementsByClassName('myspan');
+			var p = document.getElementsByTagName('p');
+			//console.log(allElements.length);
+			//console.log(typeof allElements);
+			//console.log(allElements);
+			//console.log('p:', p);
+			//console.log('byId:', byId);
+			byId.setAttribute('myAttr', 'myValue');
+			for (var i=0; i<allElements.length; i++){
+				//console.log(allElements[i].getAttribute('title'));
+			}
+			
+			function handleClick(elem){
+				//console.log(elem.getAttribute('title'));
+				console.log(event.target);
+			}
+		</script>
+	</body>
+</html>

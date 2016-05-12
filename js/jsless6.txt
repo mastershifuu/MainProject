@@ -1,0 +1,133 @@
+//==============================sranvnit' est' li odinakovie bukvi v stroke
+//  ===========================SOME
+/*function ifConsecutiveLetters2(word) {
+  var word = word.split('');
+  return word.some(function(letter, index) {
+  	if (index > 0) {
+    	return letter.toLowerCase() === word[index-1].toLowerCase();
+    }
+  });
+}
+console.log(ifConsecutiveLetters2('world'));
+//============================= REDUSE
+function ifConsecutiveLetters(word) {
+  var word = word.split('');
+  return word.reduce(function(previous, current, index) {
+    if (index > 0) {
+    	return previous || current.toLowerCase() === word[index-1].toLowerCase();
+    }
+  }, false);
+}
+console.log(ifConsecutiveLetters('woorld'));
+*/
+
+//=================================== IIFE
+
+// for (var i=0; i<3; i++){
+//   setTimeout(function(){
+//     console.log('hello');
+//   }, 3000);
+// }
+
+
+// var i = 10;
+// var generator = (function(){
+//   var id = 0;
+//   function increment(){
+//     return id++;
+//   }
+//   function set(value){
+//     id = value;
+//   }
+//   function reset(){
+//     id = 0;
+//   }
+//   return{
+//     increment: increment,
+//     set: set,
+//     reset: reset
+//   };
+// })();
+// console.log(generator.increment());
+// console.log(generator.increment());
+// console.log(generator.increment());
+// console.log(generator.set(22));
+// console.log(generator.increment());
+// console.log(generator.increment());
+// console.log(generator.increment());
+// console.log(generator.reset());
+// console.log(generator.increment());
+// console.log(generator.increment());
+// console.log(generator.increment());
+
+//============================ Cikl s zaderjkoi
+
+// (function loop(i){
+//   setTimeout(function(){
+//     console.log('hello');
+//     if (--i) loop(i);
+//   }, 3000);
+// })(3);
+
+//=============================ZAMIKANIYA
+
+// function setName(name){
+//   var innerName = name;
+  
+//   function showName(){
+//     console.log(innerName);
+//   }
+  
+//   return showName();
+// }
+
+// setName('Bob');
+
+
+//======================== RECURSION
+
+//=========================2 v steprni 3
+// function pow(base, power){
+//   return (power === 1)? base : base * pow(base, power-1);
+// }
+
+// console.log(pow(2,3));
+
+//==========================Suma vseh do chisla n
+// function sum(n){
+ 
+//   return (n === 1)? n : n + sum(n-1);
+// }
+
+// console.log(sum(4));
+
+//============================ERRORS
+
+var obj = {a:5, str:'test'};
+
+// var stringifield = JSON.stringify(obj);
+// console.log(stringifield);
+
+// var obj2 = JSON.parse(stringifield);
+// obj2.newProp = 'new';
+// console.log(obj2, obj);
+
+// try{
+//   throw new Error('zero division');
+// } catch(err){
+//   console.log(err.name);
+//   console.log(err.massage);
+// //   console.log(err.stack);
+// }finally{
+//   console.log('finally');
+// }
+
+
+//========================================DOM
+
+Привет
+
+
+
+
+
