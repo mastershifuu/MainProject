@@ -86,7 +86,7 @@ $(document).ready(function(){
 	$('#color').html(emptySelect);
 	
 	$('#product').on('change',function(e){
-		setColor(e.target.val);
+		setColor(e.target.value);
 	});
 	
 	function setColor(prod){
